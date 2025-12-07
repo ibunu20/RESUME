@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f8f8f8;
+    color:#222;
+}
+
+header{
+    width:100%;
+    background:#111;
+    padding:15px 0;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav{
+    width:85%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:white;
+    font-size:26px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#00eaff;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#00eaff;
+}
+
+/* HERO SECTION */
+.hero{
+    height:100vh;
+    background:linear-gradient(to right, #111, #333);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-align:center;
+}
+
+.hero button{
+    margin-top:15px;
+    padding:12px 25px;
+    border:none;
+    background:#00eaff;
+    color:#111;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius:5px;
+    transition:.3s;
+}
+
+.hero button:hover{
+    background:white;
+}
+
+/* SECTIONS */
+section{
+    padding:70px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:20px;
+    font-size:32px;
+}
+
+/* SKILLS */
+.skill-boxes{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skill{
+    background:#00eaff;
+    padding:12px 25px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+/* EXPERIENCE */
+.exp-card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+.exp-card ul{
+    margin-top:10px;
+    padding-left:20px;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:14px 0;
+    margin-top:20px;
+}
