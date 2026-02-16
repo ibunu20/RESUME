@@ -30,16 +30,6 @@ nav {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Floating shadow */
 }
 
-/* Floating Hero Section */
-.hero-content {
-    background: white;
-    padding: 40px;
-    border-radius: 30px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.05);
-    margin: 50px auto;
-    max-width: 900px;
-    transition: transform 0.3s ease;
-}
 
 .hero-content:hover {
     transform: translateY(-5px); /* Gentle lift on hover */
@@ -239,6 +229,7 @@ footer{
     padding:14px 0;
     margin-top:20px;
 }
+
 
 
 
