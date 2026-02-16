@@ -30,69 +30,6 @@ nav {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Floating shadow */
 }
 
-
-.hero-content:hover {
-    transform: translateY(-5px); /* Gentle lift on hover */
-}
-
-/* Skill Boxes Pop Style */
-.skill-boxes {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-}
-
-.skill {
-    background: white;
-    padding: 12px 25px;
-    border-radius: 15px;
-    font-weight: bold;
-    color: #555;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-    transition: all 0.3s ease;
-    border: 1px solid rgba(0,0,0,0.02);
-}
-
-.skill:hover {
-    transform: scale(1.1);
-    background: #007bff;
-    color: white;
-    box-shadow: 0 10px 20px rgba(0, 123, 255, 0.3);
-}
-
-/* Experience Cards */
-.exp-card {
-    background: white;
-    padding: 30px;
-    border-radius: 20px;
-    margin: 20px 0;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-    border-left: 5px solid #007bff;
-    transition: transform 0.3s ease;
-}
-
-.exp-card:hover {
-    transform: translateX(10px); /* Slides out slightly */
-}
-
-/* Buttons */
-button {
-    background: #007bff;
-    color: white;
-    border: none;
-    padding: 12px 30px;
-    border-radius: 50px;
-    font-weight: 600;
-    cursor: pointer;
-    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.2);
-    transition: all 0.3s ease;
-}
-
-button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 12px 20px rgba(0, 123, 255, 0.4);
-}
 nav{
     width:85%;
     margin:auto;
@@ -229,6 +166,7 @@ footer{
     padding:14px 0;
     margin-top:20px;
 }
+
 
 
 
